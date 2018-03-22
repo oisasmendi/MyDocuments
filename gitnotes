@@ -1,0 +1,32 @@
+git ini
+
+	Inicializa el directorio actual creado un directorio .init, es lo primero que hay que hacer
+
+git status
+	
+	Verifica el stado actual de los archivo
+	Para probar creamos un archivo de prueba con touch miarchivo, probamos git status e indicará que esta en untrack
+
+
+git add 
+
+	Agregamos el archivo con un: git add miarchvio
+	Verificamos con git status y vemos que el archivo esta listo para un commit
+	Para hacer un add de todo se puede usar: git add .
+	Otras variantes: git add *.txt
+
+git commit
+
+	Hacemos el commit de mi archivo: git commit -m 'agregando miarchivo'
+	El -m es para agregar un comentaro al commit
+	
+git log
+
+	Muestra todos nuestros commits y sus comentarios si se pusieron.
+
+
+Subir los archivos a un server remoto de Git.
+
+
+
+
