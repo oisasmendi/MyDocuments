@@ -24,9 +24,13 @@ git log
 
 	Muestra todos nuestros commits y sus comentarios si se pusieron.
 
-
+++++++++++++++++++++++++++++++++++++++++++++++
 Subir los archivos a un server remoto de Git.
+++++++++++++++++++++++++++++++++++++++++++++++
 
+git remote
+
+	
 
 
 
