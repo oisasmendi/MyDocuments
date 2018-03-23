@@ -40,6 +40,16 @@ git log
 
 	Muestra todos nuestros commits y sus comentarios si se pusieron.
 
+git checkout
+
+	Si git dice que un archivo fue modificado, y queremos quitar esos cambios entonces
+	utilizamos el git checkout
+
+	git checkout -- myfile
+
+	después el cambio que se había hecho se quita, git status ahora mostrará que ya no hay
+	cambios.
+
 ++++++++++++++++++++++++++++++++++++++++++++++
 Subir los archivos a un server remoto de Git.
 ++++++++++++++++++++++++++++++++++++++++++++++
