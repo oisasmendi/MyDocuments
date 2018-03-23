@@ -2,10 +2,26 @@ git ini
 
 	Inicializa el directorio actual creado un directorio .init, es lo primero que hay que hacer
 
+git --version
+
+	Para ver la versión de git instalada
+
+
+git config
+
+	$ git config --global user.name "John Doe"
+	$ git config --global user.email johndoe@example.com
+
+	Cambio el editor para vim	
+	$ git config --global core.editor emacs
+
+
 git status
 	
 	Verifica el stado actual de los archivo
-	Para probar creamos un archivo de prueba con touch miarchivo, probamos git status e indicará que esta en untrack
+	
+	Para probar creamos un archivo de prueba con touch miarchivo, 
+	probamos git status e indicará que esta en untrack
 
 
 git add 
